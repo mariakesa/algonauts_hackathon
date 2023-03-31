@@ -5,7 +5,6 @@ description = "Algonauts2023 similarity search app"
 authors = ["Maria Kesa, Rasmus Raag"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "algonauts_hackathon"}]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
