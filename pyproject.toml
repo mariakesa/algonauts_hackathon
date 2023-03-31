@@ -10,6 +10,8 @@ readme = "README.md"
 python = ">=3.8,<4.0"
 pycortex = "^1.2.6"
 pymilvus = "^2.2.4"
+sklearn = "^0.0.post1"
+scikit-learn = "^1.2.2"
 
 [tool.poetry.group.dev.dependencies]
 numpy = "^1.24.2"
