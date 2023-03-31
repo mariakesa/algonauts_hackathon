@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
 pycortex = "^1.2.6"
+pymilvus = "^2.2.4"
 
 [tool.poetry.group.dev.dependencies]
 numpy = "^1.24.2"
