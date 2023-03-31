@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "algonauts-hackathon"
+version = "0.1.0"
+description = "Algonauts2023 similarity search app"
+authors = ["Maria Kesa, Rasmus Raag"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "algonauts_hackathon"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+pycortex = "^1.2.6"
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.24.2"
+pandas = "^1.5.3"
+towhee = "^0.9.0"
+milvus = "^2.2.4.post1"
+dash = "^2.9.2"
+plotly = "^5.14.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
